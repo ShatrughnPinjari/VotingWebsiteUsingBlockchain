@@ -1,0 +1,150 @@
+*{
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+.header{
+height: 70px;
+background-color:rgba(57, 26,242,0.69);
+font-weight: bold;
+color: white;
+width: 100%;
+
+}
+
+.statement{
+    margin-left: 5%;
+}
+
+.view-result{
+
+
+height: 50%;
+color:black;
+background-color:  rgba(217,217,217,1);
+width: 10%;
+margin-right: 10%;
+text-align: center;
+border-radius: 5px;
+
+    }
+
+
+    .view-result:hover{
+
+        height: 50%;
+        color:white;
+        background-color:blueviolet;
+        width: 10%;
+        margin-right: 10%;
+        text-align: center;
+        border-radius: 5px;
+        
+            }
+
+
+    .padding {
+        padding: 1%;
+            }
+
+    .display{
+display: flex;
+margin-left:5%;
+justify-content: space-between;
+align-items: center;
+    }
+
+
+    .container {
+
+
+      margin: 5%;
+    }
+
+.m-t {
+margin-top: 5%;
+}
+
+
+.candidate{
+height: 10%;
+width: 100%;
+border-radius: 5px;
+font-weight: 800;
+margin: 10px;
+text-align: center;
+background-color: rgba(217,217,217,1);
+padding: 2%;
+
+    }
+
+    .vote-button{
+        height: 50%;
+        width: 100%;
+        border-radius: 15px;
+        font-weight: 800;
+        margin: 10px;
+        text-align: center;
+        background-color: rgba(217,217,217,1);
+        padding: 2%;
+        
+            }
+
+            .vote-button:hover{
+                height: 50%;
+                width: 100%;
+                font-size: medium;
+                color: white;
+                font-weight: 800;
+                border-radius: 105px;
+                margin: 10px;
+                text-align: center;
+                background-color: rgb(40, 12, 133);
+                padding: 2%;
+                transform: scale(1.05);
+                
+            }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.model{
+width: 100%;
+height: 100%;
+
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-image: linear-gradient(90deg,pink, rgb(88, 88, 222));
+
+}
+
+.background{
+
+    margin: 10%;
+   height: 400px;
+    background-color: aquamarine;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    margin: 10%; 
+    border-radius: 20px;
+    text-indent: 10%;
+
+}
+
+.button{
+    width: 100%;
+    border-radius: 20px;
+    height: 50px;
+ text-align: center;
+    background-color:pink;;
+}

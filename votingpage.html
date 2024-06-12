@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting System</title>
+<link rel="stylesheet" href="votingpage.css">
+<script  src="./scrpt.js">
+   
+</script>
+<script src="./login.js">
+
+</script>
+
+</head>
+<body>
+    <div class="header padding ">
+        <div class="display">
+<h1>E-Voting System</h1>
+<div href="/result.html" class="view-result padding"><a href="/result.html">view result</a></div>
+<div href="/result.html" class="view-result padding"><a href="/login.html">logout</a></div>
+</div>
+    </div>
+ 
+    <div class="container ">
+       
+        <h1 class="statement">Right Vote for Bright future </h1>
+        <div class="display m-t">
+            
+            <div class="candidate"  onclick="click()">
+                <center>Shatrughn</center>
+                <img src="kapat.bmp" alt="vote" width="50px" height="50px">
+                
+            </div>
+            <div class="candidate">
+               <center>Adinath</center> 
+                <img src="bucket.bmp" alt="vote" width="50px" height="50px">
+           </div>
+           <div class="candidate">
+               <center>Adesh</center>
+            <img src="watertank.png" alt="vote" width="50px" height="50px">
+       
+           </div>
+           <div class="candidate">
+             <center>Akash</center>
+            <img src="kettle.png" alt="vote" width="50px" height="50px">
+          </div>
+        </div>
+   
+
+    <div class="display m-t">
+        <div class="vote-button" onclick="giveVote('Shatrughn')" id="button">
+          Vote
+        </div>
+        <div class="vote-button" onclick="giveVote('Adinath')" id="button">
+            Vote
+       </div>
+       <div class="vote-button" onclick="giveVote('Adesh')" id="button">
+        Vote
+       </div>
+       <div class="vote-button" onclick="giveVote('Akash')" id="button" >
+        Vote
+      </div>
+</div>
+</div>
+
+
+
+</form>
+
+
+
+    </div>
+</div>
+    </div>
+
+</body>
+</html>

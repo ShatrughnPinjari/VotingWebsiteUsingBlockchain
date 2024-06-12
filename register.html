@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <style>
+        body {
+            background-image: linear-gradient(to left, blue, pink)
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            margin: 0 auto;
+            max-width: 400px;
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        input {
+            width: 100%;
+            margin-top: 5%;
+            height: 50px;
+            padding: 10px;
+
+
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            margin-top: 5%;
+            height: 50px;
+            background-color: rgb(44, 247, 159);
+            font-weight: bold;
+            border: none;
+            text-shadow: #fff;
+
+        }
+
+        input[type="submit"]:hover {
+            width: 100%;
+            margin-top: 5%;
+            height: 50px;
+            background-color: rgb(22, 131, 199);
+            color: white;
+            font-weight: bold;
+            border: none;
+            text-shadow: #fff;
+
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 5%;
+
+        }
+
+        .login-container p {
+            margin-top: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>Welcome To E-Voting System</h1>
+    <div class="login-container">
+        <h2>Sign up</h2>
+        <form id='form'>
+            <input type="text" id="username" placeholder="Username" name="username" required>
+            <input type="password" id="password" placeholder="password" required>
+            <input type="number" id="number" placeholder="Mobile number" required>
+            <input type="submit" value="signup">
+        </form>
+        <p>Already a user <a href="./login.html"> Sign in</a></p>
+    </div>
+    <script src="./register.js"></script>
+</body>
+
+</html>
